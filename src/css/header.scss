@@ -1,0 +1,57 @@
+.header{
+  &__top{
+    background: #172027;
+    padding: 30px 0;
+    &-row{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+    &-right{
+      display: flex;
+      align-items: center;
+      column-gap: 28px;
+    }
+    &-social{
+      display: flex;
+      align-items: center;
+      column-gap: 15px;
+    }
+
+    }
+    &-call{
+      display: flex;
+      align-items: center;
+      column-gap: 12px;
+    }
+  &__number{
+    font-family:$museo700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+  &__bot{
+    background: #F2F2F3;
+    padding: 15px 0;
+  }
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__link{
+    font-family: $museo300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #0F0F10;
+
+    &:hover{
+      color: #E31E24;
+
+    }
+  }
+ }
+
+
+

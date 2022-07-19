@@ -1,0 +1,28 @@
+.home{
+  padding: 210px 0 80px;
+  background: url("../images/homebg.png") center/cover no-repeat;
+  &__title{
+    @include text ($museo700, 44px, 96.5%, #fff);
+    padding-bottom: 20px;
+
+    }
+  &__subtitle {
+    @include text ($museo300, 22px, 96.5%, #fff);
+  }
+  &__btns{
+    padding-top: 26px;
+  }
+  &__row{
+    display: flex;
+    text-align: center;
+    column-gap: 111px;
+  }
+  &__card{
+    padding: 183px 0 81px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    column-gap: 20px;
+    @include text ($museo300, 15px, 96.5%, #fff);
+  }
+}
